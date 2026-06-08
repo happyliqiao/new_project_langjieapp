@@ -1,6 +1,6 @@
 Page({
   data: {
-    community: '朗玠云庭',
+    community: '朗洁云庭',
     weather: '26°C  空气优',
     notices: [
       { title: '6月公共区域消杀计划', desc: '本周三 09:00-11:30，楼栋大堂与地下车库分区进行。' },
