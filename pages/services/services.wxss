@@ -1,4 +1,5 @@
-.service-list { display: flex; flex-direction: column; gap: 18rpx; }
-.service-card { width: 100%; min-height: 128rpx; border-radius: 22rpx; background: #fff; padding: 24rpx; display: flex; align-items: center; gap: 22rpx; box-shadow: 0 10rpx 28rpx rgba(31,70,51,.05); text-align: left; }
-.service-copy { flex: 1; min-width: 0; }
-.arrow { color: #9aa79c; font-size: 46rpx; line-height: 1; }
+.service-section { margin-bottom: 12rpx; }
+.service-grid { display: flex; flex-wrap: wrap; margin: -9rpx; }
+.service-card { width: calc(33.333% - 18rpx); height: 214rpx; margin: 9rpx; border-radius: 22rpx; background: #fff; padding: 22rpx 12rpx; display: flex; flex-direction: column; align-items: center; justify-content: center; box-shadow: 0 10rpx 28rpx rgba(31,70,51,.05); text-align: center; }
+.service-name { margin-top: 14rpx; max-width: 100%; color: #14261e; font-size: 27rpx; font-weight: 650; line-height: 1.15; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.service-desc { margin-top: 8rpx; width: 100%; color: #718071; font-size: 21rpx; line-height: 1.25; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
