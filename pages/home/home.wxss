@@ -1,0 +1,8 @@
+﻿.home { background: linear-gradient(180deg, #eaf3eb 0%, #f6f8f5 420rpx); }
+.hero { min-height: 256rpx; padding: 32rpx; background: linear-gradient(135deg, rgba(255,255,255,.92), rgba(232,244,235,.96)); display: flex; flex-direction: column; justify-content: space-between; }
+.hero-kicker { color: #2b7c5b; font-size: 24rpx; font-weight: 650; }
+.hero-title { margin-top: 14rpx; width: 560rpx; font-size: 38rpx; line-height: 1.25; font-weight: 760; color: #10231b; }
+.hero-meta { margin-top: 14rpx; color: #657568; font-size: 24rpx; }
+.hero-btn { width: 184rpx; height: 68rpx; border-radius: 18rpx; background: #1f6f52; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 26rpx; }
+.notice { padding: 26rpx; margin-bottom: 18rpx; }
+.notice-desc { margin-top: 10rpx; color: #667568; font-size: 24rpx; line-height: 1.45; }

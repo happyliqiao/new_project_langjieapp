@@ -1,0 +1,15 @@
+﻿<view class="screen">
+  <view class="nav"><view><view class="nav-title">一键报修</view><view class="nav-sub">图文提交，管家派单跟进</view></view></view>
+  <view class="chips">
+    <button wx:for="{{types}}" wx:key="*this" class="chip {{active === index ? 'on' : ''}}" bindtap="pick" data-index="{{index}}">{{item}}</button>
+  </view>
+  <view class="form">
+    <text class="label">问题位置</text>
+    <input class="input" value="3期 6栋 1802" />
+    <text class="label">问题描述</text>
+    <textarea class="textarea" placeholder="请描述需要处理的问题、期望上门时间" />
+    <view class="upload panel">+ 添加照片</view>
+    <button class="primary-btn" bindtap="submit">提交报修</button>
+  </view>
+</view>
+

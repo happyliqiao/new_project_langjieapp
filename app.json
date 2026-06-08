@@ -1,0 +1,32 @@
+﻿{
+  "pages": [
+    "pages/home/home",
+    "pages/services/services",
+    "pages/orders/orders",
+    "pages/profile/profile",
+    "pages/repair/repair",
+    "pages/payment/payment",
+    "pages/visitor/visitor",
+    "pages/rights/rights",
+    "pages/notice/notice"
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#f6f8f5"
+  },
+  "tabBar": {
+    "color": "#718071",
+    "selectedColor": "#1f6f52",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      { "pagePath": "pages/home/home", "text": "首页" },
+      { "pagePath": "pages/services/services", "text": "服务" },
+      { "pagePath": "pages/orders/orders", "text": "工单" },
+      { "pagePath": "pages/profile/profile", "text": "我的" }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

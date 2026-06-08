@@ -1,0 +1,17 @@
+﻿<view class="screen">
+  <view class="nav"><view><view class="nav-title">物业缴费</view><view class="nav-sub">账单明细、权益抵扣、电子票据</view></view></view>
+  <view class="pay-card panel">
+    <view class="pay-label">本月待缴</view>
+    <view class="pay-money">¥{{total}}</view>
+    <view class="pay-note">可用权益金抵扣 128.60 元</view>
+  </view>
+  <view class="section-head"><text class="section-title">账单明细</text></view>
+  <view class="list">
+    <view class="row" wx:for="{{bills}}" wx:key="name">
+      <view><view class="row-title">{{item.name}}</view><view class="row-desc">{{item.time}}</view></view>
+      <view class="money">¥{{item.money}}</view>
+    </view>
+  </view>
+  <button class="primary-btn pay-btn" bindtap="pay">确认支付</button>
+</view>
+

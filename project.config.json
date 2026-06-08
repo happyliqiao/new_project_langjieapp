@@ -1,0 +1,16 @@
+﻿{
+  "description": "Langjie Property Owner Mini Program Demo",
+  "packOptions": { "ignore": [] },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "newFeature": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "latest",
+  "appid": "touristappid",
+  "projectname": "new_project_langjieapp",
+  "condition": {}
+}

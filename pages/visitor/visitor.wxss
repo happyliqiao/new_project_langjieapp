@@ -1,0 +1,3 @@
+﻿.code-card { padding: 38rpx; text-align: center; margin-bottom: 28rpx; }
+.code-title { color: #526257; font-size: 24rpx; }
+.code { margin: 22rpx auto; width: 360rpx; height: 132rpx; border-radius: 24rpx; background: #13231d; color: #fff; font-size: 48rpx; font-weight: 760; display: flex; align-items: center; justify-content: center; letter-spacing: 4rpx; }

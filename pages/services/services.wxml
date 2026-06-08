@@ -1,0 +1,22 @@
+﻿<view class="screen">
+  <view class="nav">
+    <view>
+      <view class="nav-title">全部服务</view>
+      <view class="nav-sub">物业服务 · 到家服务 · 数字权益</view>
+    </view>
+  </view>
+  <view wx:for="{{groups}}" wx:key="title">
+    <view class="section-head"><text class="section-title">{{item.title}}</text></view>
+    <view class="service-list">
+      <button class="service-card" wx:for="{{item.items}}" wx:key="name" wx:for-item="service" bindtap="go" data-url="{{service.url}}">
+        <view class="action-icon" style="background: {{service.color}};">{{service.icon}}</view>
+        <view class="service-copy">
+          <view class="row-title">{{service.name}}</view>
+          <view class="row-desc">{{service.desc}}</view>
+        </view>
+        <view class="arrow">›</view>
+      </button>
+    </view>
+  </view>
+</view>
+

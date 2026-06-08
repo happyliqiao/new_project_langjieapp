@@ -1,0 +1,6 @@
+﻿.pay-card { padding: 34rpx; background: linear-gradient(135deg, #1f6f52, #5d6e37); color: #fff; }
+.pay-label { font-size: 24rpx; opacity: .86; }
+.pay-money { margin-top: 18rpx; font-size: 62rpx; font-weight: 780; }
+.pay-note { margin-top: 12rpx; font-size: 24rpx; opacity: .86; }
+.money { color: #1f6f52; font-size: 30rpx; font-weight: 700; }
+.pay-btn { margin-top: 34rpx; }

@@ -1,0 +1,16 @@
+﻿<view class="screen">
+  <view class="nav"><view><view class="nav-title">业主权益</view><view class="nav-sub">消费返物业费，权益可抵扣</view></view></view>
+  <view class="rights-card panel">
+    <view class="pay-label">可用权益金</view>
+    <view class="pay-money">¥{{balance}}</view>
+    <view class="pay-note">购物、到家服务、团购消费可累计</view>
+  </view>
+  <view class="section-head"><text class="section-title">精选权益</text></view>
+  <view class="list">
+    <view class="row" wx:for="{{goods}}" wx:key="name">
+      <view class="row-main"><view class="row-title">{{item.name}}</view><view class="row-desc">{{item.desc}}</view></view>
+      <view class="status">{{item.tag}}</view>
+    </view>
+  </view>
+</view>
+

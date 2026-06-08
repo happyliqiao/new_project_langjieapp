@@ -1,0 +1,29 @@
+﻿<view class="screen profile">
+  <view class="nav">
+    <view>
+      <view class="nav-title">我的</view>
+      <view class="nav-sub">房屋、权益与服务记录</view>
+    </view>
+  </view>
+  <view class="user panel">
+    <view class="avatar">李</view>
+    <view>
+      <view class="user-name">{{owner}}</view>
+      <view class="nav-sub">{{room}}</view>
+    </view>
+  </view>
+  <view class="stats panel">
+    <view class="stat" wx:for="{{stats}}" wx:key="label">
+      <view class="stat-value">{{item.value}}</view>
+      <view class="stat-label">{{item.label}}</view>
+    </view>
+  </view>
+  <view class="section-head"><text class="section-title">账户服务</text></view>
+  <view class="list">
+    <view class="row" wx:for="{{menus}}" wx:key="*this">
+      <view class="row-title">{{item}}</view>
+      <view class="arrow">›</view>
+    </view>
+  </view>
+</view>
+

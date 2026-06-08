@@ -1,0 +1,53 @@
+﻿<view class="screen home">
+  <view class="nav">
+    <view>
+      <view class="nav-title">{{community}}</view>
+      <view class="nav-sub">3期 6栋 1802 · {{weather}}</view>
+    </view>
+    <view class="pill">切换房屋</view>
+  </view>
+
+  <view class="hero panel">
+    <view>
+      <view class="hero-kicker">今日管家</view>
+      <view class="hero-title">邻里服务、缴费报修、权益消费都在这里</view>
+      <view class="hero-meta">专属管家在线 · 紧急事项 30 分钟响应</view>
+    </view>
+    <button class="hero-btn" bindtap="go" data-url="/pages/repair/repair">立即报事</button>
+  </view>
+
+  <view class="section-head">
+    <text class="section-title">常用服务</text>
+    <text class="section-link">全部</text>
+  </view>
+  <view class="grid">
+    <button class="action" wx:for="{{actions}}" wx:key="name" bindtap="go" data-url="{{item.url}}">
+      <view class="action-icon" style="background: {{item.color}};">{{item.icon}}</view>
+      <text>{{item.name}}</text>
+    </button>
+  </view>
+
+  <view class="section-head">
+    <text class="section-title">待办提醒</text>
+    <text class="section-link">查看全部</text>
+  </view>
+  <view class="list">
+    <view class="row" wx:for="{{orders}}" wx:key="title">
+      <view class="row-main">
+        <view class="row-title">{{item.title}}</view>
+        <view class="row-desc">{{item.desc}}</view>
+      </view>
+      <view class="status">{{item.status}}</view>
+    </view>
+  </view>
+
+  <view class="section-head">
+    <text class="section-title">社区公告</text>
+    <text class="section-link">更多</text>
+  </view>
+  <view class="notice panel" wx:for="{{notices}}" wx:key="title" bindtap="go" data-url="/pages/notice/notice">
+    <view class="row-title">{{item.title}}</view>
+    <view class="notice-desc">{{item.desc}}</view>
+  </view>
+</view>
+
