@@ -1,16 +1,40 @@
 ﻿{
-  "description": "Langjie Property Owner Mini Program Demo",
-  "packOptions": { "ignore": [] },
-  "setting": {
-    "urlCheck": false,
-    "es6": true,
-    "postcss": true,
-    "minified": true,
-    "newFeature": false
-  },
-  "compileType": "miniprogram",
-  "libVersion": "latest",
-  "appid": "touristappid",
-  "projectname": "new_project_langjieapp",
-  "condition": {}
+    "setting":  {
+                    "es6":  true,
+                    "postcss":  true,
+                    "minified":  true,
+                    "uglifyFileName":  false,
+                    "enhance":  true,
+                    "packNpmRelationList":  [
+
+                                            ],
+                    "babelSetting":  {
+                                         "ignore":  [
+
+                                                    ],
+                                         "disablePlugins":  [
+
+                                                            ],
+                                         "outputPath":  ""
+                                     },
+                    "useCompilerPlugins":  false,
+                    "minifyWXML":  true
+                },
+    "compileType":  "miniprogram",
+    "simulatorPluginLibVersion":  {
+
+                                  },
+    "packOptions":  {
+                        "ignore":  [
+
+                                   ],
+                        "include":  [
+
+                                    ]
+                    },
+    "appid":  "wx25da4f25bec93130",
+    "editorSetting":  {
+
+                      },
+    "miniprogramRoot":  "./"
 }

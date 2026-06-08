@@ -1,32 +1,52 @@
 ﻿{
-  "pages": [
-    "pages/home/home",
-    "pages/services/services",
-    "pages/orders/orders",
-    "pages/profile/profile",
-    "pages/repair/repair",
-    "pages/payment/payment",
-    "pages/visitor/visitor",
-    "pages/rights/rights",
-    "pages/notice/notice"
-  ],
-  "window": {
-    "navigationStyle": "custom",
-    "backgroundTextStyle": "dark",
-    "backgroundColor": "#f6f8f5"
-  },
-  "tabBar": {
-    "color": "#718071",
-    "selectedColor": "#1f6f52",
-    "backgroundColor": "#ffffff",
-    "borderStyle": "white",
-    "list": [
-      { "pagePath": "pages/home/home", "text": "首页" },
-      { "pagePath": "pages/services/services", "text": "服务" },
-      { "pagePath": "pages/orders/orders", "text": "工单" },
-      { "pagePath": "pages/profile/profile", "text": "我的" }
-    ]
-  },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+    "pages":  [
+                  "pages/home/home",
+                  "pages/services/services",
+                  "pages/orders/orders",
+                  "pages/profile/profile",
+                  "pages/repair/repair",
+                  "pages/payment/payment",
+                  "pages/visitor/visitor",
+                  "pages/rights/rights",
+                  "pages/notice/notice"
+              ],
+    "window":  {
+                   "navigationStyle":  "custom",
+                   "backgroundTextStyle":  "dark",
+                   "backgroundColor":  "#f6f8f5"
+               },
+    "tabBar":  {
+                   "color":  "#718071",
+                   "selectedColor":  "#1f6f52",
+                   "backgroundColor":  "#ffffff",
+                   "borderStyle":  "white",
+                   "list":  [
+                                {
+                                    "pagePath":  "pages/home/home",
+                                    "text":  "首页",
+                                    "iconPath":  "assets/tabbar/home.png",
+                                    "selectedIconPath":  "assets/tabbar/home-active.png"
+                                },
+                                {
+                                    "pagePath":  "pages/services/services",
+                                    "text":  "服务",
+                                    "iconPath":  "assets/tabbar/services.png",
+                                    "selectedIconPath":  "assets/tabbar/services-active.png"
+                                },
+                                {
+                                    "pagePath":  "pages/orders/orders",
+                                    "text":  "工单",
+                                    "iconPath":  "assets/tabbar/orders.png",
+                                    "selectedIconPath":  "assets/tabbar/orders-active.png"
+                                },
+                                {
+                                    "pagePath":  "pages/profile/profile",
+                                    "text":  "我的",
+                                    "iconPath":  "assets/tabbar/profile.png",
+                                    "selectedIconPath":  "assets/tabbar/profile-active.png"
+                                }
+                            ]
+               },
+    "style":  "v2",
+    "sitemapLocation":  "sitemap.json"
 }
