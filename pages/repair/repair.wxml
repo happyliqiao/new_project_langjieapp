@@ -1,4 +1,4 @@
-﻿<view class="screen">
+<view class="screen">
   <view class="nav"><view><view class="nav-title">一键报修</view><view class="nav-sub">图文提交，管家派单跟进</view></view></view>
   <view class="chips">
     <button wx:for="{{types}}" wx:key="*this" class="chip {{active === index ? 'on' : ''}}" bindtap="pick" data-index="{{index}}">{{item}}</button>

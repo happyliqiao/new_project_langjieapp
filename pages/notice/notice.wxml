@@ -1,4 +1,4 @@
-﻿<view class="screen">
+<view class="screen">
   <view class="nav"><view><view class="nav-title">社区公告</view><view class="nav-sub">物业通知与社区公示</view></view></view>
   <view class="list">
     <view class="notice-card panel" wx:for="{{notices}}" wx:key="title">

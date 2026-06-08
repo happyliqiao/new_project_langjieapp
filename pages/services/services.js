@@ -1,4 +1,4 @@
-﻿Page({
+Page({
   data: {
     groups: [
       { title: '物业服务', items: [

@@ -1,4 +1,4 @@
-﻿.home { background: linear-gradient(180deg, #eaf3eb 0%, #f6f8f5 420rpx); }
+.home { background: linear-gradient(180deg, #eaf3eb 0%, #f6f8f5 420rpx); }
 .hero { min-height: 256rpx; padding: 32rpx; background: linear-gradient(135deg, rgba(255,255,255,.92), rgba(232,244,235,.96)); display: flex; flex-direction: column; justify-content: space-between; }
 .hero-kicker { color: #2b7c5b; font-size: 24rpx; font-weight: 650; }
 .hero-title { margin-top: 14rpx; width: 560rpx; font-size: 38rpx; line-height: 1.25; font-weight: 760; color: #10231b; }

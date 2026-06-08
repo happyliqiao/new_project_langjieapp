@@ -1,4 +1,4 @@
-﻿# 朗玠物业业主小程序 Demo
+# 朗玠物业业主小程序 Demo
 
 这是一个微信原生小程序 demo，放置于 `E:\liqiaobac\new_project_langjieapp`。
 

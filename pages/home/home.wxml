@@ -1,4 +1,4 @@
-﻿<view class="screen home">
+<view class="screen home">
   <view class="nav">
     <view>
       <view class="nav-title">{{community}}</view>

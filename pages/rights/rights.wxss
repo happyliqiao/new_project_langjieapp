@@ -1,4 +1,4 @@
-﻿.rights-card { padding: 34rpx; background: linear-gradient(135deg, #8b5a2b, #1f6f52); color: #fff; }
+.rights-card { padding: 34rpx; background: linear-gradient(135deg, #8b5a2b, #1f6f52); color: #fff; }
 .pay-label { font-size: 24rpx; opacity: .86; }
 .pay-money { margin-top: 18rpx; font-size: 62rpx; font-weight: 780; }
 .pay-note { margin-top: 12rpx; font-size: 24rpx; opacity: .86; }

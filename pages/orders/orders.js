@@ -1,4 +1,4 @@
-﻿Page({
+Page({
   data: {
     tabs: ['全部', '处理中', '待支付'],
     active: 0,

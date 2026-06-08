@@ -1,4 +1,4 @@
-﻿Page({
+Page({
   data: {
     community: '朗玠云庭',
     weather: '26°C  空气优',

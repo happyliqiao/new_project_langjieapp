@@ -1,4 +1,4 @@
-﻿<view class="screen visitor">
+<view class="screen visitor">
   <view class="nav"><view><view class="nav-title">访客通行</view><view class="nav-sub">临时通行码与车辆预约</view></view></view>
   <view class="code-card panel">
     <view class="code-title">访客码</view>

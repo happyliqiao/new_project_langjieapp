@@ -1,4 +1,4 @@
-﻿.service-list { display: flex; flex-direction: column; gap: 18rpx; }
+.service-list { display: flex; flex-direction: column; gap: 18rpx; }
 .service-card { width: 100%; min-height: 128rpx; border-radius: 22rpx; background: #fff; padding: 24rpx; display: flex; align-items: center; gap: 22rpx; box-shadow: 0 10rpx 28rpx rgba(31,70,51,.05); text-align: left; }
 .service-copy { flex: 1; min-width: 0; }
 .arrow { color: #9aa79c; font-size: 46rpx; line-height: 1; }

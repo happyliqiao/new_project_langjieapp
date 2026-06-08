@@ -1,4 +1,4 @@
-﻿Page({
+Page({
   data: {
     owner: '李先生',
     room: '朗玠云庭 3期 6栋 1802',

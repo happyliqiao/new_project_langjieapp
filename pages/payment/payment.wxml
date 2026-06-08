@@ -1,4 +1,4 @@
-﻿<view class="screen">
+<view class="screen">
   <view class="nav"><view><view class="nav-title">物业缴费</view><view class="nav-sub">账单明细、权益抵扣、电子票据</view></view></view>
   <view class="pay-card panel">
     <view class="pay-label">本月待缴</view>

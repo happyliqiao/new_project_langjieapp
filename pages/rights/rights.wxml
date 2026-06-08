@@ -1,4 +1,4 @@
-﻿<view class="screen">
+<view class="screen">
   <view class="nav"><view><view class="nav-title">业主权益</view><view class="nav-sub">消费返物业费，权益可抵扣</view></view></view>
   <view class="rights-card panel">
     <view class="pay-label">可用权益金</view>

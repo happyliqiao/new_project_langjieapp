@@ -1,4 +1,4 @@
-﻿.profile { background: linear-gradient(180deg, #eef4ef 0%, #f6f8f5 380rpx); }
+.profile { background: linear-gradient(180deg, #eef4ef 0%, #f6f8f5 380rpx); }
 .user { padding: 30rpx; display: flex; align-items: center; gap: 24rpx; }
 .avatar { width: 96rpx; height: 96rpx; border-radius: 32rpx; background: #1f6f52; color: #fff; font-size: 42rpx; font-weight: 700; display: flex; align-items: center; justify-content: center; }
 .user-name { font-size: 34rpx; font-weight: 700; }

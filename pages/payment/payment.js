@@ -1,4 +1,4 @@
-﻿Page({
+Page({
   data: {
     bills: [
       { name: '住宅物业费', time: '2026-06', money: '486.00' },

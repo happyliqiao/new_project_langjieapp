@@ -1,4 +1,4 @@
-﻿Page({
+Page({
   data: {
     balance: '128.60',
     goods: [
